@@ -1,0 +1,83 @@
+.calculator {
+    width: 160px;
+    margin: auto;
+    background-color: #000000;
+}
+
+#display {
+    width: 86%;
+    padding: 10px;
+    font-size: 10px; /* Corrected from front-size */
+    text-align: right; /* Corrected from text-aling */
+    background-color: #FFEBCD;
+    color: #333;
+    border: 3px solid #FFFFFF;
+    border-radius: 0px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Corrected from columnns */
+    grid-gap: 5px;
+    margin-top: 5px;
+}
+
+button {
+    width: 37px;
+    height: 37px;
+    margin: 10px; /* Added missing semicolon */
+    padding: 10px;
+    font-size: 13px;
+    background-color: #A9A9A9;
+    border: 1px solid #FFFFFF; /* Specified border */
+    border-radius: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+#add {
+    background-color: #A9A9A9;
+}
+
+button:hover {
+    background-color: #A9A9A9; /* Corrected from bacground-color */
+}
+
+button.clear {
+    background-color: #A9A9A9;
+}
+
+button.clear:hover {
+    background-color: #A9A9A9;
+}
+
+#sub {
+    background-color: #A9A9A9;
+}
+
+#multiply {
+    background-color: #A9A9A9;
+}
+
+#divide {
+    background-color: #A9A9A9;
+}
+
+#double-zero {
+    background-color: #A9A9A9;
+}
+
+#ac {
+    background-color: #A9A9A9;
+    width: 78px; /* Added missing semicolon */
+}
+
+#back {
+    background-color: #A9A9A9;
+    width: 78px;
+    float: left; /* Changed align-left to float */
+}
+
+#equal {
+    background-color: #FF7F50;
+}
